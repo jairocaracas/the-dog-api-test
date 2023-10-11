@@ -33,8 +33,7 @@ function detailEmpty(description) {
 
 async function fetchDogByBreed(e) {
   error.style.display = 'none';
-
-  loader.style.display = 'inline-block';
+  loader.style.display = 'none';
   loaderText.style.display = 'inline-block';
 
   dogInfo.innerHTML = ' ';

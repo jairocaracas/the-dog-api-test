@@ -21,6 +21,8 @@ axios.defaults.headers.common['x-api-key'] =
 
 async function getDogs() {
   svgContainer.style.display = 'block';
+  loader.style.display = 'none';
+
   try {
     const response = await axios.get('https://api.thedogapi.com/v1/breeds');
     return response;

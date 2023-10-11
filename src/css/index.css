@@ -60,6 +60,10 @@ img {
   }
 }
 
+.loader-text {
+  text-align: center;
+}
+
 #dog-loader {
   max-width: 250px;
   max-height: 250px;
